@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-background-image: url(/datos/Img_canva.jpg);
+background-image: url(/datos/Imgcanva.jpg);
 background-color: black;
 display:grid;
 justify-content: center;
