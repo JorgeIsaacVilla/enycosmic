@@ -1,0 +1,102 @@
+body{
+    padding: 0px;
+    margin: 0px;
+background-image: url(/datos/Img_canva.jpg);
+background-color: black;
+display:grid;
+justify-content: center;
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5vh;
+    text-align: center;
+    color:#D4AF37;
+    border-radius: 50px;
+    margin: 5vh;
+}
+P{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    margin: 5vh; 
+}
+.press{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    display:grid;  
+}
+.foto{
+    height:30vh;
+    width: 80vh;
+    border-color: #D4AF37;
+    border-radius: 100px;
+    border-style:groove;
+    margin: 10VH;
+  }
+  .textContec{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+  }
+  .canvasBotones{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex; 
+  }
+  .btn{
+    height: 9vh;
+    width: 14vh;
+    border-style: solid;
+    margin: 1vh;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: rgba(1, 1, 2, 0.651);
+    border-color:  #f7c830;
+    transition: 1s; 
+    justify-content: center;
+    display: flex;
+  }
+  .tiktok{
+    height: 7vh;
+    width: 12vh;
+    margin-top: 1vh;
+  }
+  .instagram{
+    height: 6vh;
+    width: 7vh;
+    margin-top: 1vh; 
+  }
+  .youtube{
+    height: 6vh;
+    width: 11vh;
+    margin-top: 1vh;
+  }
+  .blumer{
+    height: 5vh;
+    width: 5vh;
+    margin-top: 1.5vh;
+  }
+  .btn:hover{
+    background: white;
+    box-shadow: 0 0 10px  white, 0 0 40px  white, 0 0 80px  white;
+}
+.enycosmic{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100px;
+    margin-top: -180px;
+    margin-right: auto;
+    margin-left: auto;
+    transition: 1s;
+    background: white;
+    box-shadow: 0 0 10px  white, 0 0 40px  white, 0 0 80px  white;
+}
