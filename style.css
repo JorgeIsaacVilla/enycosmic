@@ -58,7 +58,6 @@ P{
     border-style: solid;
     margin: 1vh;
     border-radius: 30px;
-    justify-content: center;
     background-color: rgba(1, 1, 2, 0.651);
     border-color:  #f7c830;
     transition: 1s; 
@@ -99,4 +98,32 @@ P{
     transition: 1s;
     background: white;
     box-shadow: 0 0 10px  white, 0 0 40px  white, 0 0 80px  white;
+}
+@media screen and (min-width:768px) {
+  body{
+    display:grid;
+    justify-content: center;
+  }
+  .canvasBotones{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    justify-content: center;
+    display:grid;
+  grid-template-columns: repeat(2,1fr); 
+}
+P{
+  height: 10vh;
+  width: 65vh;
+  margin: 1vh; 
+}
+.foto{
+  height:30vh;
+  width: 70vh;
+  border-color: #D4AF37;
+  border-radius: 100px;
+  border-style:groove;
+  margin: 5px;
+}
 }
