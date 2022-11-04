@@ -30,6 +30,9 @@ P{
     margin-right: auto;
     display:grid;  
 }
+.cambasIsotipo{
+margin: auto;
+}
 .foto{
     height:30vh;
     width: 80vh;
